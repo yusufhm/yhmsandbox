@@ -127,3 +127,5 @@ atlassian-ide-plugin.xml
 
 # Drupal console
 console
+
+!drush/drushrc.php
