@@ -32,6 +32,8 @@ modules:
   prod:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
+cm:
+  allow-overrides: true
 target-hooks:
   frontend-setup:
     dir: '${docroot}'
