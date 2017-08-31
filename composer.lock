@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d341e62876441e3e9e2f1f096e1583ef",
+    "content-hash": "d76e972e2938e4f402897c0d2c749fcc",
     "packages": [
         {
             "name": "acquia/blt",
@@ -3656,6 +3656,9 @@
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
+                },
+                "patches_applied": {
+                    "page_variant does not exist error": "./patches/page_manager/page_variant_not_exist-2876880.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

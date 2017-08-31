@@ -1,0 +1,12 @@
+diff --git a/src/Routing/VariantRouteFilter.php b/src/Routing/VariantRouteFilter.php
+index 0c271d8..9bfb06e 100644
+--- a/src/Routing/VariantRouteFilter.php
++++ b/src/Routing/VariantRouteFilter.php
+@@ -61,6 +61,7 @@ class VariantRouteFilter implements RouteFilterInterface {
+    *   The current request stack.
+    */
+   public function __construct(EntityTypeManagerInterface $entity_type_manager, CurrentPathStack $current_path, RequestStack $request_stack) {
++    $entity_type_manager->clearCachedDefinitions();
+     $this->pageVariantStorage = $entity_type_manager->getStorage('page_variant');
+     $this->currentPath = $current_path;
+     $this->requestStack = $request_stack;

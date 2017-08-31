@@ -52,6 +52,11 @@
             "merge-extra-deep": true,
             "merge-scripts": true,
             "replace": true
+        },
+        "patches": {
+            "drupal/page_manager": {
+                "page_variant does not exist error": "./patches/page_manager/page_variant_not_exist-2876880.patch"
+            }
         }
     }
 }
