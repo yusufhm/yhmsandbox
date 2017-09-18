@@ -35,7 +35,9 @@
                 "type:drupal-custom-theme"
             ],
             "docroot/libraries/{$name}": [
-                "type:drupal-library"
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
@@ -58,6 +60,10 @@
             "drupal/page_manager": {
                 "page_variant does not exist error": "./patches/page_manager/page_variant_not_exist-2876880.patch"
             }
-        }
+        },
+        "installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ]
     }
 }
