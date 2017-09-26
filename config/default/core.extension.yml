@@ -30,6 +30,7 @@ module:
   image: 0
   inline_entity_form: 0
   jsonapi: 0
+  jsonapi_extras: 0
   layout_discovery: 0
   lightning_contact_form: 0
   lightning_core: 0
