@@ -63,6 +63,9 @@
         "patches": {
             "drupal/page_manager": {
                 "page_variant does not exist error": "./patches/page_manager/page_variant_not_exist-2876880.patch"
+            },
+            "drupal/metatag": {
+                "Make Metatag fields available as JSON": "https://www.drupal.org/files/issues/metatag-2636852-86.patch"
             }
         },
         "installer-types": [

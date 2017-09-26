@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e09b21adeb2dedd664dfe43884f916a1",
+    "content-hash": "69fb3bbff1580d7d11e69568d0c1ca8a",
     "packages": [
         {
             "name": "acquia/blt",
@@ -3617,6 +3617,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Make Metatag fields available as JSON": "https://www.drupal.org/files/issues/metatag-2636852-86.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
